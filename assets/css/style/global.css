@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+:root{
+    --Portage:#899EE5;
+    --Lavender:#F287E1;
+    --Apricot:#F8BCB2;
+    --Astra:#F8EFB7;
+    --WhiteLinen:#F8EFE7;
+
+    --RobotoThin: Roboto-Thin,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --RobotoBold: Roboto-Bold,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --RobotoRegular: Roboto-Regular,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --RobotoMedium: Roboto-Medium,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+
+@font-face{
+    font-family: Roboto-Thin;
+    src: url("../../webfonts/Roboto-Thin.ttf") format('truetype');
+}
+@font-face{
+    font-family: Roboto-Bold;
+    src: url("../../webfonts/Roboto-Bold.ttf") format('truetype');
+}
+@font-face{
+    font-family: Roboto-Regular;
+    src: url("../../webfonts/Roboto-Regular.ttf") format('truetype');
+}
+
+@font-face{
+    font-family: Roboto-Medium;
+    src: url("../../webfonts/Roboto-Medium.ttf") format('truetype');
+}
+
+header{
+   background:var(--Portage) ;
+}
+h1{
+    font-size: 20px;
+    font-family: var(--RobotoRegular);
+    color: var(--WhiteLinen);
+}
+.img-notebook{
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div h1{
+    margin-top: 25px;
+}
+
+div h2{
+    font-size: 20px;
+    color: var(--Portage);
+}

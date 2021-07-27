@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+
 }
 
 
@@ -40,7 +40,9 @@ html {
     font-family: Roboto-Medium;
     src: url("../../webfonts/Roboto-Medium.ttf") format('truetype');
 }
-
+body{
+    background: var(--WhiteLinen);
+}
 header{
    background:var(--Portage) ;
 }
@@ -61,4 +63,8 @@ div h1{
 div h2{
     font-size: 20px;
     color: var(--Portage);
+}
+.btn-agregar{
+    background: var(--Portage);
+    color: var(--WhiteLinen);
 }

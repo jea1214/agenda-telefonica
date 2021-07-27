@@ -39,7 +39,7 @@
                     <div class="col-12 col-lg-12">
                         <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                     </div>
-                    <div class="d-flex justify-content-center mt-2 mb-2"><button type="button" class="btn btn-primary" id="agregar" value="agregar">Agregar</button></div>
+                    <div class="d-flex justify-content-center mt-2 mb-2"><button type="button" class="btn btn-agregar" id="agregar" value="agregar">Agregar</button></div>
                 </div>
             </form>
         </div>

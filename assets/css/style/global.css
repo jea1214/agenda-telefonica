@@ -1,32 +1,21 @@
 html {
     box-sizing: border-box;
-    scroll-behavior: smooth;
-
 }
-
-
-*, *:before, *:after {
+ *:before, *:after {
     box-sizing: inherit;
 }
 
 :root{
     --Portage:#899EE5;
-    --Lavender:#F287E1;
-    --Apricot:#F8BCB2;
-    --Astra:#F8EFB7;
     --WhiteLinen:#F8EFE7;
+    --gris:#919ca4;
 
-    --RobotoThin: Roboto-Thin,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --RobotoBold: Roboto-Bold,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --RobotoRegular: Roboto-Regular,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    --RobotoMedium: Roboto-Medium,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
 
-@font-face{
-    font-family: Roboto-Thin;
-    src: url("../../webfonts/Roboto-Thin.ttf") format('truetype');
-}
+
 @font-face{
     font-family: Roboto-Bold;
     src: url("../../webfonts/Roboto-Bold.ttf") format('truetype');
@@ -36,15 +25,14 @@ html {
     src: url("../../webfonts/Roboto-Regular.ttf") format('truetype');
 }
 
-@font-face{
-    font-family: Roboto-Medium;
-    src: url("../../webfonts/Roboto-Medium.ttf") format('truetype');
-}
 body{
     background: var(--WhiteLinen);
 }
 header{
    background:var(--Portage) ;
+}
+main{
+    margin-top: 75px;
 }
 h1{
     font-size: 20px;
@@ -67,4 +55,33 @@ div h2{
 .btn-agregar{
     background: var(--Portage);
     color: var(--WhiteLinen);
+}
+
+th{
+    color: #919ca4;
+}
+
+#adicionados{
+    color: var(--Portage);
+    font-size: 18px;
+    font-family: var(--RobotoBold);
+    padding-left: 15px;
+}
+
+.btn-delete{
+    background: var(--Portage);
+    color: var(--WhiteLinen);
+    border-color: var(--WhiteLinen);
+}
+div h2 i{
+    padding-left: 10px;
+}
+@media(max-width: 767px){
+    .contactos{
+        margin-top: 35px;
+    }
+
+    main{
+        margin-top: 30px;
+    }
 }
